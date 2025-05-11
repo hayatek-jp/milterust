@@ -1,0 +1,34 @@
+[package]
+name = "milterust"
+version = "0.1.0-alpha.0"
+authors = [
+    "KATO Hayate <dev@hayatek.jp>",
+]
+edition = "2024"
+rust-version = "1.85"
+description = "A Milter protocol library for Rust"
+documentation = ""
+readme = "README.md"
+homepage = ""
+repository = "https://github.com/hayatek-jp/milterust"
+license = "GPL-3.0"
+keywords = [
+    "milter",
+    "email",
+    "mta",
+    "mda",
+]
+categories = [
+    "api-bindings",
+    "email",
+    "network-programming",
+]
+exclude = []
+publish = false
+
+[dependencies]
+
+[dev-dependencies]
+
+[features]
+default = []
