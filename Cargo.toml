@@ -27,7 +27,7 @@ exclude = []
 publish = false
 
 [dependencies]
-tokio = { version = "1.45.1", features = ["net", "io-util", "sync", "time"] }
+tokio = { version = "1.46.1", features = ["net", "io-util", "sync", "time"] }
 
 [dev-dependencies]
 
